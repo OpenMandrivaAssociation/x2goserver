@@ -1,0 +1,13 @@
+# this is a systemd service file for starting x2goserver
+[Unit]
+Description=x2go - remote desktop server
+After=syslog.target network.target
+#
+[Service]
+# The process to start is x2gocleansession
+ExecStart=/usr/sbin/x2gocleansessions
+#
+# perhaps some other things have to be done
+# don't know yet, let's talk to Colin
+[Install]
+WantedBy=multi-user.target
