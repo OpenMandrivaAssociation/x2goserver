@@ -11,7 +11,7 @@ Release:	%mkrel 5
 Summary:	The server-side core of X2go
 License:	GPLv2+
 Group:		Networking/Remote access
-Url:		http://wiki.x2go.org/doku.php
+Url:		https://wiki.x2go.org/doku.php
 Source0:	http://code.x2go.org/releases/source/%{name}/%{name}-%{version}.tar.gz
 Source1:	%{name}.service
 BuildRequires:	man2html-core
