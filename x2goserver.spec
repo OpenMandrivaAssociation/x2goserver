@@ -14,6 +14,7 @@ Group:		Networking/Remote access
 Url:		https://wiki.x2go.org/doku.php
 Source0:	http://code.x2go.org/releases/source/%{name}/%{name}-%{version}.tar.gz
 Source1:	%{name}.service
+BuildRequires:	make
 BuildRequires:	man2html-core
 Requires:	openssh-server
 Requires:	openssh-clients
